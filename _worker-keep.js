@@ -1,6 +1,6 @@
 // 环境变量配置(必填)
 let email = "sunchawei@hotmail.com";      // SAP登录邮箱,直接填写或设置环境变量，变量名：EMAIL
-let password = "Chao9943&";   // SAP登录密码,直接填写或设置环境变量，变量名：PASSWORD
+let password = "";   // SAP登录密码,直接填写或设置环境变量，变量名：PASSWORD
 
 // 离线重启通知 Telegram配置(可选)
 let CHAT_ID = "";    // Telegram聊天CHAT_ID,直接填写或设置环境变量，变量名：CHAT_ID
@@ -8,7 +8,7 @@ let BOT_TOKEN = "";  // Telegram机器人TOKEN,直接填写或设置环境变量
 
 // 应用配置 URL和应用名称配置(必填)
 const MONITORED_APPS = [ // 格式: {url: "应用URL", name: "应用名称"}
-  {url: "https://usnrmxoh.cfapps.us10-001.hana.ondemand.com", name: "189bea90trial"},  
+  {url: "https://", name: "189bea90trial"},  
   {url: "https://xxxxx.cfapps.us10-001.hana.ondemand.com", name: "xxxxx"}
 ];
 
